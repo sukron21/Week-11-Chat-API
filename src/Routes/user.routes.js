@@ -1,7 +1,7 @@
 require('dotenv').config()
 // deklare exprees
 const express = require('express')
-const { list, destroy, detail, update, detailname, register,login,listLimit } = require('../controller/user.controller')
+const { list, destroy, detail, update, detailname, register,login,listLimit } = require('../Controller/user.controller')
 // const{register, login}=require('../controller/auth.controller')
 // const{isAdmin, isCustomer}= require('../middleware/authorization')
 
