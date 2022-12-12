@@ -1,4 +1,4 @@
-const { store, list } = require('../model/chat.model')
+const { store, list } = require('../Model/chat.model')
 
 module.exports = (io, socket) => {
     socket.on("ping", (data) => {

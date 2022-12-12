@@ -1,8 +1,8 @@
-const userModel = require('../model/user.model');
+const userModel = require('../Model/user.model');
 const {succesWithToken,failed, success}= require('../helper/response');
 const bcrypt= require('bcrypt');
 const jwtToken = require('../helper/generateJWT');
-const { listAll } = require('../model/user.model');
+const { listAll } = require('../Model/user.model');
 
 const userController = {
   // method
