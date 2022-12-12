@@ -4,9 +4,6 @@ const express = require('express')
 const { list, destroy, detail, update, detailname, register,login,listLimit } = require('../controller/user.controller')
 // const{register, login}=require('../controller/auth.controller')
 // const{isAdmin, isCustomer}= require('../middleware/authorization')
-// const jwtAuth = require ('../middleware/jwtAuth.js');
-// const upload =require ('../middleware/upload');
-// const remove= require('../middleware/deletefile')
 
 const router = express.Router()
 
