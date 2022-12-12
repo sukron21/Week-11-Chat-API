@@ -70,7 +70,6 @@ const userController = {
   register:(req, res)=>{
     try{
     const{username,email,phone, password}= req.body;
-    // const image=req.file.filename
     bcrypt.hash(password,10,(err,hash)=>{
         if (err) {
             failed(res,err.message, 'failed','fail hash password')
@@ -80,8 +79,6 @@ const userController = {
             email,
             phone,
             password: hash
-            //image_user: req.file ? req.file.filename : "Ellipse330.png",
-
           }
           userModel.register(data).then((result)=>{
             success(res, result, 'success','register success')
