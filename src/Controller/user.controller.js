@@ -43,7 +43,6 @@ const userController = {
   },
   update: (req, res) => {
     const id = req.params.id
-    // const image=req.file.filename
     // eslint-disable-next-line camelcase
     const {username,email, phone, password,} = req.body
     // const data={}
