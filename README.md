@@ -53,8 +53,8 @@ DB_PASSWORD  =
 DB_NAME  = 
 DB_PORT  = 
 
-
-# PORT = 3002
+#index
+PORT = 
 
 # jwt
 JWT_SECRET = 
